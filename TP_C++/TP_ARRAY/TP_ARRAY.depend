@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1589114935 source:c:\phanio\tp_c++\tp_array\src\rectangularcube.cpp
+	"RectangularCube.h"
+
+1589114880 c:\phanio\tp_c++\tp_array\include\rectangularcube.h
+
+1589115698 source:c:\phanio\tp_c++\tp_array\main.cpp
+	<iostream>
+	"RectangularCube.h"
+

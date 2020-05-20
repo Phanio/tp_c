@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1588517716 source:c:\phanio\tp_c++\vt\main.cpp
+	<iostream>
+	"Vecteur.h"
+
+1588517489 c:\phanio\tp_c++\vt\include\vecteur.h
+
+1588517555 source:c:\phanio\tp_c++\vt\src\vecteur.cpp
+	<iostream>
+	"Vecteur.h"
+

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1589296691 source:c:\phanio\tp_c++\tp8\src\produit.cpp
+	"Produit.h"
+
+1589296925 c:\phanio\tp_c++\tp8\include\produit.h
+	<string>
+
+1589303309 source:c:\phanio\tp_c++\tp8\main.cpp
+	<iostream>
+

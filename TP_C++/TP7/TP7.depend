@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1589109072 source:c:\phanio\tp_c++\tp7\main.cpp
+	<iostream>
+	"Grid.h"
+
+1589109093 c:\phanio\tp_c++\tp7\include\grid.h
+
+1589108615 source:c:\phanio\tp_c++\tp7\src\grid.cpp
+	"Grid.h"
+

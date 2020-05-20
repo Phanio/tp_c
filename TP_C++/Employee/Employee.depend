@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1589744631 source:c:\phanio\tp_c++\employee\main.cpp
+	<iostream>
+	"Employee.h"
+
+1589742469 c:\phanio\tp_c++\employee\include\employee.h
+	<iostream>
+
+1589742017 source:c:\phanio\tp_c++\employee\src\employee.cpp
+	"Employee.h"
+

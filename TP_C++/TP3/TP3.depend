@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1588411120 source:c:\phanio\tp_c++\tp3\src\compte.cpp
+	"Compte.h"
+
+1588411065 c:\phanio\tp_c++\tp3\include\compte.h
+	<string>
+
+1588411201 source:c:\phanio\tp_c++\tp3\main.cpp
+	<iostream>
+	"Compte.h"
+

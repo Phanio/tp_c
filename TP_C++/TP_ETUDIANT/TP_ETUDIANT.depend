@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1589039285 source:c:\phanio\tp_c++\tp_etudiant\src\examen.cpp
+	"Examen.h"
+
+1589039331 c:\phanio\tp_c++\tp_etudiant\include\examen.h
+
+1589040094 source:c:\phanio\tp_c++\tp_etudiant\src\etudiant.cpp
+	<iostream>
+	"Etudiant.h"
+	"Personne.h"
+
+1589042341 c:\phanio\tp_c++\tp_etudiant\include\etudiant.h
+	<Personne.h>
+	"Examen.h"
+	<string>
+
+1589038892 c:\phanio\tp_c++\tp_etudiant\include\personne.h
+	<string>
+
+1589038710 source:c:\phanio\tp_c++\tp_etudiant\src\personne.cpp
+	"Personne.h"
+	<string>
+
+1589039754 source:c:\phanio\tp_c++\tp_etudiant\main.cpp
+	<iostream>
+	"Etudiant.h"
+	"Examen.h"
+

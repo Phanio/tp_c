@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1589580181 source:c:\phanio\tp_c++\shape\main.cpp
+	<iostream>
+	"Shape.h"
+	"Circle.h"
+
+1589575659 c:\phanio\tp_c++\shape\include\shape.h
+	<iostream>
+	"Circle.h"
+
+1589558975 c:\phanio\tp_c++\shape\include\circle.h
+
+1589558833 source:c:\phanio\tp_c++\shape\src\circle.cpp
+	"Circle.h"
+
+1589581068 source:c:\phanio\tp_c++\shape\src\shape.cpp
+	"Shape.h"
+	"Circle.h"
+

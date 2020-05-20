@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1589017113 source:c:\phanio\tp_c++\tp4\src\complexe.cpp
+	"Complexe.h"
+	<math.h>
+
+1589014098 c:\phanio\tp_c++\tp4\include\complexe.h
+
+1589033792 source:c:\phanio\tp_c++\tp4\main.cpp
+	<iostream>
+	"Complexe.h"
+

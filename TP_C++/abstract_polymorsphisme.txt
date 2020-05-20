@@ -1,0 +1,89 @@
+Une classe contenant au moins une fonction virtuelle pure est considérée comme une classe abstraite. 
+Exemple:
+
+class Account {
+public:
+   Account( double d );   // Constructor.
+   virtual double GetBalance();   // Obtain balance.
+   virtual void PrintBalance() = 0;   // Pure virtual function.
+private:
+    double _balance;
+};
+
+L'héritage est relatif au class.
+
+Le polymorphisme est relatif aux méthodes des objets
+Le polymorphisme représente la capacité du système à choisir 
+dynamiquement la méthode qui correspond au type de l'objet en cours de manipulation. 
+Le polymorphisme est implémenté en C++ avec les fonctions virtuelles (virtual) et l'héritage.
+ 
+
+
+#include <iostream>
+using namespace std;
+
+
+class Vehicule
+{
+    public:
+    virtual void affiche()  ;  //Affiche une description du Vehicule
+
+    protected:
+    int m_prix;  //Chaque véhicule a un prix
+};
+
+class Voiture: public Vehicule  //Une Voiture EST UN Vehicule
+{
+    public:
+    virtual void affiche()  ;
+
+    private:
+    int m_portes;  //Le nombre de portes de la voiture
+};
+
+class Moto : public Vehicule  //Une Moto EST UN Vehicule
+{
+    public:
+    virtual void affiche()  ;
+
+    private:
+    double m_vitesse;  //La vitesse maximale de la moto
+};
+
+void Vehicule::affiche()
+{
+    cout << "Ceci est un vehicule." << endl;
+}
+
+void Voiture::affiche()
+{
+    cout << "Ceci est une voiture." << endl;
+}
+
+void Moto::affiche()
+{
+    cout << "Ceci est une moto." << endl;
+}
+
+void presenter(Vehicule  & v){
+    v.affiche();
+}
+
+int main()
+{
+    Vehicule v;
+    Voiture vo;
+    Moto m;
+    presenter(v);
+    presenter(vo);
+    presenter(m);
+    return 0;
+}
+
+
+
+
+
+
+
+
